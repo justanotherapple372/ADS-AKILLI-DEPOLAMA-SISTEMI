@@ -45,7 +45,7 @@ Bu grafik, **kaynak kullanım oranını (Utilization Rate)** analiz eder.
 
 -   **Durağanlık:** Grafikteki dalgalanmalar, sistemin yoğun ve sakin saatlerini ayırt etmemizi sağlar.
 
-**Modül ve Fonksiyon Analizi:**
+### Modül ve Fonksiyon Analizi:
 
 ### `def depoyu_calistir()`
 
