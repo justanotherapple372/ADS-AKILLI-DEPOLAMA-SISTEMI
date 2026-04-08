@@ -1,5 +1,4 @@
-# BENZETİM PROGRAMLAMA VİZE RAPORU
-## AKILLI DEPOLAMA SİSTEMİ
+# BENZETİM PROGRAMLAMA: AKILLI DEPOLAMA SİSTEMİ (ADS)
 
 Bu proje, bir akıllı depo içerisindeki ürün giriş ve yerleştirme süreçlerini **Ayrık Olay Simülasyonu (Discrete Event Simulation)** yöntemiyle modellemektedir. Simülasyonun amacı, belirli bir kaynak (robot) sayısı ve değişken geliş hızları altında sistemin performansını (bekleme süreleri ve kaynak kullanımı) analiz etmektir.
 
