@@ -2,7 +2,8 @@
 
 Bu proje, bir akıllı depo içerisindeki ürün giriş ve yerleştirme süreçlerini **Ayrık Olay Simülasyonu (Discrete Event Simulation)** yöntemiyle modellemektedir. Simülasyonun amacı, belirli bir kaynak (robot) sayısı ve değişken geliş hızları altında sistemin performansını (bekleme süreleri ve kaynak kullanımı) analiz etmektir.
 
-**Model Parametreleri ve Metodoloji:** Sistem, Python programlama dili ve `simpy` kütüphanesi kullanılarak modellenmiştir. Modelde kullanılan temel bileşenler şunlardır:
+## Model Parametreleri ve Metodoloji: 
+Sistem, Python programlama dili ve `simpy` kütüphanesi kullanılarak modellenmiştir. Modelde kullanılan temel bileşenler şunlardır:
 
 -   **Varlıklar (Entities):** Depoya gelen ürünler.
 
@@ -16,7 +17,8 @@ Bu proje, bir akıllı depo içerisindeki ürün giriş ve yerleştirme süreçl
 
 -   **Taşıma Süresi:** Belirlenen alt ve üst sınırlar dahilinde **Düzgün Dağılım (Uniform Distribution)** kullanılarak modellenmiştir.
 
-**Algoritma Akışı:** Sistemin çalışma mantığı aşağıdaki adımları izlemektedir:
+## Algoritma Akışı: 
+Sistemin çalışma mantığı aşağıdaki adımları izlemektedir:
 
 1.  **Üretici (Producer):** Belirlenen ortalama süreye göre rastgele zamanlarda ürün nesneleri oluşturur.
 
@@ -44,7 +46,7 @@ Bu grafik, **kaynak kullanım oranını (Utilization Rate)** analiz eder.
 
 -   **Durağanlık:** Grafikteki dalgalanmalar, sistemin yoğun ve sakin saatlerini ayırt etmemizi sağlar.
 
-### Modül ve Fonksiyon Analizi:
+## Modül ve Fonksiyon Analizi:
 
 ### `def depoyu_calistir()`
 
@@ -93,7 +95,7 @@ Sisteme dışarıdan gelen ürün akışını temsil eden **Olay Üretecidir (Ev
 | **urun_sureci**   | Fonksiyon       | Ürünün sistem içindeki tüm mantıksal adımları.           |
 
 
-**Örnek Ayarlar ile Değerlendirme:**
+## Örnek Ayarlar ile Değerlendirme:
 
 -   **Depodaki Robot Sayısı:** 2 adet
 
@@ -110,8 +112,7 @@ Sisteme dışarıdan gelen ürün akışını temsil eden **Olay Üretecidir (Ev
 
 ![Bekleme Suresi Dağılım Analizi](./imajlar/BeklemeSuresiDagilimAnalizi.PNG)
 
-**SİSTEM ANALİZİ VE GRAFİKSEL DEĞERLENDİRME:**
-
+## SİSTEM ANALİZİ VE GRAFİKSEL DEĞERLENDİRME:
 Simülasyon çıktıları olarak üretilen grafikler, akıllı depo sisteminin operasyonel verimliliğini gösterir. Bu veriler aşağıdaki şekilde analiz edilmiştir:
 
 ### Anlık Kaynak Kullanım Grafiği (Step Chart)
