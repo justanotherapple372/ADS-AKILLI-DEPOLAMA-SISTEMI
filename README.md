@@ -107,8 +107,10 @@ Sisteme dışarıdan gelen ürün akışını temsil eden **Olay Üretecidir (Ev
 
 -   **Simülasyon Toplam Süre:** 200 dakika
 
-resim1
-resim2
+
+![Bekleme Süresi Dağılım Analizi](./AnlıkKaynakKullanımGrafigi.PNG)
+
+![Bekleme Suresi Dağılım Analizi](./BeklemeSuresiDagilimAnalizi.PNG)
 
 **SİSTEM ANALİZİ VE GRAFİKSEL DEĞERLENDİRME:**
 
