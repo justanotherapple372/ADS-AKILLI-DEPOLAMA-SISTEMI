@@ -17,7 +17,6 @@ Bu proje, bir akıllı depo içerisindeki ürün giriş ve yerleştirme süreçl
 -   **Taşıma Süresi:** Belirlenen alt ve üst sınırlar dahilinde **Düzgün Dağılım (Uniform Distribution)** kullanılarak modellenmiştir.
 
 **Algoritma Akışı:** Sistemin çalışma mantığı aşağıdaki adımları izlemektedir:
------------------------------------------------------------------------------
 
 1.  **Üretici (Producer):** Belirlenen ortalama süreye göre rastgele zamanlarda ürün nesneleri oluşturur.
 
